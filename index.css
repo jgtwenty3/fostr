@@ -1,0 +1,97 @@
+body {
+  background-color: #f2f2f2;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#navigation {
+  background-color: #e2e2e2;
+  padding: 10px;
+}
+
+#nav-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#dog-card {
+  padding: 10px;
+  background-color: rgb(191, 237, 248);
+  text-align: center;
+  border: solid black;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+#dog-image {
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#back-button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.display-block {
+  display: block;
+}
+
+#add-dog-form {
+ 
+}
+
+#add-dog-form input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box; /* Add this line */
+}
+
+#add-dog-form button {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  width: 100%;
+}
+
+#form-container {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgb(191, 237, 248);
+  text-align: center;
+  margin: 0 auto;
+  width: 500px;
+  border: solid black;
+  border-radius: 5px;
+}
+
+#form-container input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box; /* Add this line */
+}
+
+#form-container button {
+  padding: 10px;
+  background-color: #368ea4;
+  color: #060606;
+  border: none;
+  width: 100%;
+  
+}
